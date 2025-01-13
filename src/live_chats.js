@@ -8,7 +8,7 @@ export function LiveChats() {
     return <div style={{ display: "flex", minHeight: "95vh" }}>
         <iframe
             title="Youtube Chat Window"
-            src={`https://www.youtube.com/live_chat?v=${ytVideoId}&amp;embed_domain=${window.location.hostname}`}
+            src={`https://www.youtube.com/live_chat?v=${ytVideoId}&embed_domain=${window.location.hostname}`}
             style={{ flex: 1, padding: "5px" }}
         ></iframe>
         <iframe
